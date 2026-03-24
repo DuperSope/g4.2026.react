@@ -33,10 +33,10 @@ export default function CineCard({
         Note: <b>{item.rating}</b>
       </p>
       <p>
-        Création: <b>{item.createdAt.toLocaleDateString()}</b>
+        Création: <b>{item.createdAt.toDateString()}</b>
       </p>
       <p>
-        Mise à jour: <b>{item.updatedAt.toLocaleDateString()}</b>
+        Mise à jour: <b>{item.updatedAt.toDateString()}</b>
       </p>
 
       <div className="flex flex-row gap-2 mt-8 items-center">
